@@ -31,7 +31,7 @@ def convert_to_mp3():
         token = secrets.token_urlsafe(16)
 
         subprocess.Popen(f'{application_path}\\fluidsynth\\fluidsynth.exe -F "%temp%\\{token}.wav" -ni "{soundfont_path}" "{midi_path}"', shell = True).wait()
-        subprocess.Popen(f'ffmpeg -i "%temp%\\{token}.wav" -acodec mp3 "{output_path}"', shell = True).wait()
+        subprocess.Popen(f'{application_path}\\ffmpeg\\ffmpeg.exe -i "%temp%\\{token}.wav" -acodec mp3 "{output_path}"', shell = True).wait()
         subprocess.Popen(f'del %temp%\\{token}.wav', shell = True).wait()
     else:
         status_label.config(text="Please select SoundFont, MIDI, and output path.")
