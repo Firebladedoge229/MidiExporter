@@ -19,8 +19,6 @@ If you are suspicious, feel free to compile the code yourself!
 pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
 ```
 
-## Requirements
-
 ## Author
 
 [Firebladedoge229](https://www.github.com/Firebladedoge229) - Creator
