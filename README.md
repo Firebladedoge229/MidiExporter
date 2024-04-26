@@ -4,6 +4,8 @@
 
 A exporter that utilizes MIDI to MP3 conversion.
 
+![Showcase](https://cdn.discordapp.com/attachments/737726710468050945/1233550957011533937/showcase.gif?ex=662d815a&is=662c2fda&hm=1a48c08eb0eddef2b629256b14dd264a7d56c82ffcaf99a6cbcc3218594f0e38&)
+
 ## Installation
 
 Simply run the executable found at the [Releases](https://github.com/Firebladedoge229/MidiExporter/releases/latest) page.
@@ -12,7 +14,6 @@ When running, a [Windows Defender SmartScreen](https://learn.microsoft.com/en-us
 
 If you are suspicious, feel free to compile the code yourself!
 
-![Showcase](https://cdn.discordapp.com/attachments/737726710468050945/1233550957011533937/showcase.gif?ex=662d815a&is=662c2fda&hm=1a48c08eb0eddef2b629256b14dd264a7d56c82ffcaf99a6cbcc3218594f0e38&)
 ### Build Command
 ```py
 pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
