@@ -13,7 +13,9 @@ A [Windows Defender SmartScreen](https://learn.microsoft.com/en-us/windows/secur
 If you are suspicious, feel free to compile the code yourself!
 
 ### Build Command
-`pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py`
+```py
+pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
+```
 
 ![Showcase](https://github.com/Firebladedoge229/MidiExporter/assets/72758695/c203d502-0aa9-4078-a647-42d83e713318)
 
