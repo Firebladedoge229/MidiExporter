@@ -20,8 +20,8 @@ pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-
 
 ## Requirements
 
-[FFmpeg](https://ffmpeg.org/download.html) - WAV to MP3\
-[FluidSynth](https://github.com/FluidSynth/fluidsynth/releases/latest) - MIDI to WAV
+~~[FFmpeg]~~(https://ffmpeg.org/download.html) - WAV to MP3\
+~~[FluidSynth]~~(https://github.com/FluidSynth/fluidsynth/releases/latest) - MIDI to WAV
 
 ## Author
 
