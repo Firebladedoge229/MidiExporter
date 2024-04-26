@@ -12,16 +12,13 @@ When running, a [Windows Defender SmartScreen](https://learn.microsoft.com/en-us
 
 If you are suspicious, feel free to compile the code yourself!
 
+![Showcase](https://cdn.discordapp.com/attachments/737726710468050945/1233550957011533937/showcase.gif?ex=662d815a&is=662c2fda&hm=1a48c08eb0eddef2b629256b14dd264a7d56c82ffcaf99a6cbcc3218594f0e38&)
 ### Build Command
 ```py
 pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
 ```
-![Showcase](https://github.com/Firebladedoge229/MidiExporter/assets/72758695/c203d502-0aa9-4078-a647-42d83e713318)
 
 ## Requirements
-
-~~[FFmpeg](https://ffmpeg.org/download.html)~~ - WAV to MP3\
-~~[FluidSynth](https://github.com/FluidSynth/fluidsynth/releases/latest)~~ - MIDI to WAV
 
 ## Author
 
@@ -29,4 +26,6 @@ pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-
 
 ## Credits 
 
-[SoftIcons](https://www.softicons.com/system-icons/toyfactory-icons-by-mira/file-midi-icon) - MIDI Icon
+[SoftIcons](https://www.softicons.com/system-icons/toyfactory-icons-by-mira/file-midi-icon) - MIDI Icon\
+[FFmpeg](https://ffmpeg.org/download.html) - WAV to MP3\
+[FluidSynth](https://github.com/FluidSynth/fluidsynth/releases/latest) - MIDI to WAV
