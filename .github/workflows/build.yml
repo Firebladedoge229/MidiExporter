@@ -24,7 +24,7 @@ jobs:
       run: |
         pip install pyinstaller
     - name: Build executable
-      run: pyinstaller --onefile --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
+      run: pyinstaller --onefile --noconsole --icon=midi.ico --add-data="midi.ico;." --add-data="sv_ttk;sv_ttk" --add-data="ffmpeg;ffmpeg" --add-data="fluidsynth;fluidsynth" midiexporter.py
 
     - name: Create Release
       id: create_release
