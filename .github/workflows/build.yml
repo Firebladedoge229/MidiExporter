@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - '**.md'
+      - '**.yml'
 
 jobs:
   build:
@@ -33,9 +34,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: "v1.${{ github.run_number }}"
-        release_name: GitHub Actions Release v1.${{ github.run_number }}
+        release_name: Release v1.${{ github.run_number }}
         body: |
-          An automated GitHub actions release.
+          An automated release.
         draft: false
         prerelease: false
 
