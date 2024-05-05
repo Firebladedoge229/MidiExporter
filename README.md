@@ -4,7 +4,7 @@
 
 A exporter that utilizes MIDI to MP3 conversion.
 
-![Showcase](https://cdn.discordapp.com/attachments/737726710468050945/1233550957011533937/showcase.gif?ex=662d815a&is=662c2fda&hm=1a48c08eb0eddef2b629256b14dd264a7d56c82ffcaf99a6cbcc3218594f0e38&)
+![Showcase](https://i.ibb.co/s60Ddbs/showcase.gif)
 
 ## Installation
 
